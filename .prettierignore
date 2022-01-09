@@ -1,0 +1,24 @@
+# dependencies
+node_modules
+
+# build output
+.nyc_output
+/**/build
+/**/dist
+
+# reports
+/**/report
+
+# Mac specfic
+.DS_Store
+
+.env
+
+# IntelliJ
+.idea
+/*.iml
+
+.build
+*.tsbuildinfo
+
+

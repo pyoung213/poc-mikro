@@ -1,0 +1,35 @@
+# dependencies
+node_modules
+package-lock.json
+
+# build output
+.nyc_output
+/**/build
+/**/dist
+/**/storybook-dist
+/**/temp
+
+# reports
+/**/report
+
+# rush-specific
+/common/temp
+package-deps.json
+/**/.rush
+*.build.log
+*.build.error.log
+
+# Mac specfic
+.DS_Store
+
+.env
+
+# IntelliJ
+.idea
+/*.iml
+
+cdk.out
+.build
+*.tsbuildinfo
+.aws-sam
+cdk.context.json
